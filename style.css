@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(240, 233, 233);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(240, 233, 233);
+    margin:0 auto;
+}
+header{
+
+}
+
+.profile-image{
+height:120px;
+width: 100px;
+border: 3px red;
+border-radius: 100%;
+float: left;
+
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: rgb(0, 183, 255);  
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+} 
+.header-contact a{
+    text-decoration:none;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+ text-decoration:underline;
+ color: blueviolet;   
+
+}
+.div-clear{
+    clear: both;
+}
+.common-hr{
+    border: 5px solid black;
+    width: 100%;
+    margin: 10px auto ;
+    border-bottom: none;
+}
+/*----------------
+personal section start
+------------------*/
+#personal-section{
+
+}
+
+/*-----------
+work experience
+--------*/
+.content{
+   margin-bottom: 10px; 
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+     width: 70%;
+     float: left;
+}
+
+/*-----------
+educational information
+--------*/
+.edu-template-left{
+    float: left;
+    width:45% ;
+    
+}
+
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
+/*-----------
+footer information start
+--------*/
+.bottom-container{
+background-color: rgb(12, 14, 19);
+text-align: center;
+padding: 10px;
+}
+.bottom-container a{
+   color: crimson;
+   text-decoration: none; 
+   margin-top: 20px;
+}
+.bottom-container p{
+    color: darkmagenta;
+    margin-top:20px;
+}
+
+
